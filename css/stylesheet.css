@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+
+#myP {
+    width: 100%;
+    float: left;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    transition: 0.2s ease-in-out;
+}
+
+#myP.change {
+    background-color: white
+}
+#myP.change .menu-item {
+    color: black !important;
+}
+
+#menu {
+    font-size: 20px;
+    float:right;
+    margin-top:10px;
+}
+
+#logo{
+    width: 100px;
+    float:left;
+}
+
+.test{
+    background-color: white;
+}
+
+#main{
+    width:100%;
+    float: left;
+}
+
+.banner{
+    width: 100%;
+}
+
+.menu-item{
+    color:#fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left:20px;
+    font-family:'Sarabun';
+    padding:5px 15px;
+    border-radius: 100px;
+    transition: 0.5s;
+
+}
+
+.menu-item:hover{
+    color: #1d976c;
+    background:#ffffff;
+}
+
+body{
+    font-family: 'Sarabun';
+    color:#1e4439;
+    margin:0;
+}
+
+#kelebihan_remes{
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin:0;
+    padding-bottom: 25px;
+}
+
+#kelebihan_remes h1{
+    margin-top:0;
+}
+
+.why{
+    font-size: 22px;
+    font-weight: 250;
+    margin:0;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.grid_container{
+    display:grid;
+    background-color: #fff;
+    padding: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    
+}
+
+.grid_container > div {
+    background-color: white;
+    padding: 10px 25px;
+    font-size: 24px;
+}
+
+.bagian-planning{
+    text-align: center;
+}
+
+.bagian-organizing{
+    text-align: center;
+}
+
+.bagian-controlling{
+    text-align: center;
+}
+
+.gambar_subtext{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gambar_subtext_control{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(90deg);
+}
+
+.subtext_{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+._text{
+    font-size: 18px;
+    font-weight: 250;
+}
+
+.remes-punya {
+    width: 100%;
+    height: 550px;
+    background-image: url('../images/remes-1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background: #000; */
+}
+
+#screenshot{
+    width: 100%;
+    height: 500px;
+}
+
+.team{
+    display:grid;
+    background-color: rgb(30, 167, 71);
+    padding: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    
+}
+
+.team > div {
+    background-color: white;
+    padding: 10px 25px;
+    font-size: 24px;
+}
+
+.team .anggota {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.subnama_h4{
+    padding-right: 25px;
+}
+
+.footer-text{
+    background: #fff;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}

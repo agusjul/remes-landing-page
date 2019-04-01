@@ -1,0 +1,100 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 12/02/2019 07:29
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-analysis:before { content: "\f100"; }
+.flaticon-002-statistics:before { content: "\f101"; }
+.flaticon-003-big-data:before { content: "\f102"; }
+.flaticon-004-binary:before { content: "\f103"; }
+.flaticon-005-businessman:before { content: "\f104"; }
+.flaticon-006-data:before { content: "\f105"; }
+.flaticon-007-data-analysis:before { content: "\f106"; }
+.flaticon-008-data-analysis-1:before { content: "\f107"; }
+.flaticon-009-backup:before { content: "\f108"; }
+.flaticon-010-document:before { content: "\f109"; }
+.flaticon-011-presentation:before { content: "\f10a"; }
+.flaticon-012-goal:before { content: "\f10b"; }
+.flaticon-013-information:before { content: "\f10c"; }
+.flaticon-014-pyramid:before { content: "\f10d"; }
+.flaticon-015-data-chart:before { content: "\f10e"; }
+.flaticon-016-statistics-1:before { content: "\f10f"; }
+.flaticon-017-objective-analysis:before { content: "\f110"; }
+.flaticon-018-password:before { content: "\f111"; }
+.flaticon-019-pie-chart:before { content: "\f112"; }
+.flaticon-020-predictive-chart:before { content: "\f113"; }
+.flaticon-021-presentation-1:before { content: "\f114"; }
+.flaticon-022-quantitative:before { content: "\f115"; }
+.flaticon-023-research:before { content: "\f116"; }
+.flaticon-024-research-1:before { content: "\f117"; }
+.flaticon-025-data-protection:before { content: "\f118"; }
+.flaticon-026-seo:before { content: "\f119"; }
+.flaticon-027-spying:before { content: "\f11a"; }
+.flaticon-028-stock:before { content: "\f11b"; }
+.flaticon-029-website:before { content: "\f11c"; }
+.flaticon-030-traffic-data:before { content: "\f11d"; }
+    
+    $font-Flaticon-001-analysis: "\f100";
+    $font-Flaticon-002-statistics: "\f101";
+    $font-Flaticon-003-big-data: "\f102";
+    $font-Flaticon-004-binary: "\f103";
+    $font-Flaticon-005-businessman: "\f104";
+    $font-Flaticon-006-data: "\f105";
+    $font-Flaticon-007-data-analysis: "\f106";
+    $font-Flaticon-008-data-analysis-1: "\f107";
+    $font-Flaticon-009-backup: "\f108";
+    $font-Flaticon-010-document: "\f109";
+    $font-Flaticon-011-presentation: "\f10a";
+    $font-Flaticon-012-goal: "\f10b";
+    $font-Flaticon-013-information: "\f10c";
+    $font-Flaticon-014-pyramid: "\f10d";
+    $font-Flaticon-015-data-chart: "\f10e";
+    $font-Flaticon-016-statistics-1: "\f10f";
+    $font-Flaticon-017-objective-analysis: "\f110";
+    $font-Flaticon-018-password: "\f111";
+    $font-Flaticon-019-pie-chart: "\f112";
+    $font-Flaticon-020-predictive-chart: "\f113";
+    $font-Flaticon-021-presentation-1: "\f114";
+    $font-Flaticon-022-quantitative: "\f115";
+    $font-Flaticon-023-research: "\f116";
+    $font-Flaticon-024-research-1: "\f117";
+    $font-Flaticon-025-data-protection: "\f118";
+    $font-Flaticon-026-seo: "\f119";
+    $font-Flaticon-027-spying: "\f11a";
+    $font-Flaticon-028-stock: "\f11b";
+    $font-Flaticon-029-website: "\f11c";
+    $font-Flaticon-030-traffic-data: "\f11d";
